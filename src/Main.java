@@ -15,6 +15,6 @@ public class Main {
         Student s1 = new Student("ayush", 22,017,true);
         s1.display();
         Dog d1 = new Dog();
-        d1.work();
+        d1.bark();
     }
 }
