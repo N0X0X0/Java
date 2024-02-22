@@ -13,14 +13,4 @@ public class Exception {
     }
 }
 
-//
-//import java.io;
-//import java.io.FileNotFoundException;
-//
-//public class TestThrow2{
-//    public static void method()throws FileNotFoundException{
-//        FileReader file = new FileReader()
-//    }
-//}
-
 
