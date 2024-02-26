@@ -1,26 +1,12 @@
-public class Student {
+class Student(var name: String, var age: Int, var usn: Int) {
+    var isEligible: Boolean = false
 
-    String name;
-    int age;
-
-    int usn;
-    boolean isEligible;
-
-    public Student(String name, int age, int usn) {
-        this.name = name;
-        this.age = age;
-        this.usn = usn;
-    }
-
-    public Student(String name, int age, int usn, boolean isEligible) {
-        this(name,age,usn);
-        this.isEligible = isEligible;
+    constructor(name: String, age: Int, usn: Int, isEligible: Boolean) : this(name, age, usn) {
+        this.isEligible = isEligible
     }
 
 
-
-    public void display(){
-        System.out.println(name + age+ isEligible);
+    fun display() {
+        println(name + age + isEligible)
     }
-
 }

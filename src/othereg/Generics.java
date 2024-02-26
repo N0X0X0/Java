@@ -15,6 +15,7 @@ public class Generics<T> {
     public static <T> boolean isEqual(Generics<T> g1, Generics<T> g2){
         return g1.get().equals(g2.get());
     }
+
     public static void main(String[] args) {
         Generics<String> t1 =new Generics<>();
         t1.set("Ayush");
